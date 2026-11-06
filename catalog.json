@@ -2236,10 +2236,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "c2240e08d4913839a90cb0d0801a763f296b7ed707be440b6a32930f760f12d6",
-          "bytes": 101722,
-          "width": 512,
-          "height": 859,
+          "kind": "cover_front",
+          "sha256": "4b181673605088435ee1d2b16649db2a37422688756272c29904fc9ec70f6cd9",
+          "bytes": 4446874,
+          "width": 2809,
+          "height": 4715,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -2247,32 +2248,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 504496,
-              "lossy90": 101722
+              "lossless": 20838214,
+              "lossy90": 4446874
             }
           },
-          "kind": "cover_front",
-          "path": "191306/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic R (USA, Brazil).png",
-              "source_sha256": "cc29f2bdabcedbe1459b56484bde0448ec2cced6e599448470264f75d9e10048",
-              "source_bytes": 680112,
+              "source": "Sonic Retro/Sonic_R_Saturn_US_Cover_Front.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "4421813e37e79c3e10e9285983955d621518ceb640c40c46db7a42ce0ef7c34e",
+              "source_bytes": 13545157,
+              "url": "https://info.sonicretro.org/images/d/de/Sonic_R_Saturn_US_Cover_Front.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 504496,
-                  "lossy90": 101722
+                  "lossless": 20838214,
+                  "lossy90": 4446874
                 }
               },
-              "redump_id": "17999",
-              "dat_name": "Sonic R (USA, Brazil)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Front.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:37:01Z",
+              "source_sha1": "79c163062b8ae28c8b0aacad2bf5c82e3eca009a",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Front.jpg"
             }
-          ]
+          ],
+          "path": "191306/cover_front.webp"
         },
         "logo": {
           "sha256": "1e0f077b74978bdf72d04f1c4f8afe13ceb6ebf62bd255e4b8ee198a7ba9a8c9",
@@ -2402,6 +2413,145 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "f629cbf045b3e3f621e6977779a324b0d4a709e7552c33f347d2fd658da45fc3",
+          "bytes": 4902934,
+          "width": 3727,
+          "height": 4721,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 23473018,
+              "lossy90": 4902934
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonic_R_Saturn_US_Cover_Back.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "9c7409befcd5e5c4d764cf6f5a8daca3fe00ae09db225ffcaffd3b87ff64547a",
+              "source_bytes": 15284533,
+              "url": "https://info.sonicretro.org/images/9/9a/Sonic_R_Saturn_US_Cover_Back.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 23473018,
+                  "lossy90": 4902934
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Back.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:37:02Z",
+              "source_sha1": "2078d7ec7676200118741b688bb8253bd0afdc38",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Back.jpg"
+            }
+          ],
+          "path": "191306/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "c2240e08d4913839a90cb0d0801a763f296b7ed707be440b6a32930f760f12d6",
+          "bytes": 101722,
+          "width": 512,
+          "height": 859,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 504496,
+              "lossy90": 101722
+            }
+          },
+          "kind": "cover_front",
+          "path": "191306/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic R (USA, Brazil).png",
+              "source_sha256": "cc29f2bdabcedbe1459b56484bde0448ec2cced6e599448470264f75d9e10048",
+              "source_bytes": 680112,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 504496,
+                  "lossy90": 101722
+                }
+              },
+              "redump_id": "17999",
+              "dat_name": "Sonic R (USA, Brazil)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "a9c2d5f550759e13377850f8178195c53ebc5a1291d963084e4f8d05d0d0605c",
+          "bytes": 1504740,
+          "width": 2945,
+          "height": 2892,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 8312702,
+              "lossy90": 1504740
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonicr_sat_us_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "6534130c4949ead83c4631054549a52278a17a9bc4254a6d73fcbb8f9fd424dc",
+              "source_bytes": 5563061,
+              "url": "https://info.sonicretro.org/images/6/61/Sonicr_sat_us_cd.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 8312702,
+                  "lossy90": 1504740
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonicr_sat_us_cd.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:57:22Z",
+              "source_sha1": "67ba16afc9730f6e336007adae94f1b70cee9ad2",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonicr_sat_us_cd.jpg"
+            }
+          ],
+          "path": "191306/disc.webp"
         }
       },
       "serial_identifiers": [
@@ -42411,10 +42561,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "a150a5c5ee58b9a80e10f9a56dd99ff2a2754946db15d7075161369ef5bbc22f",
-          "bytes": 97956,
-          "width": 512,
-          "height": 857,
+          "kind": "cover_front",
+          "sha256": "dea0986f3e4fe908daf268dfe98e74e2ae7cceed58bc558624e8f9f1e15a0981",
+          "bytes": 5131168,
+          "width": 2828,
+          "height": 4805,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -42422,32 +42573,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 505912,
-              "lossy90": 97956
+              "lossless": 21492460,
+              "lossy90": 5131168
             }
           },
-          "kind": "cover_front",
-          "path": "81062/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic 3D Blast (USA).png",
-              "source_sha256": "894da7738ec425c4c18fbfa345300e7acf79319ec4ab090ca28559375ff59275",
-              "source_bytes": 681603,
+              "source": "Sonic Retro/S3dss-box-us.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "487966c1f5a12482d16caa684ed9612c311082eb40233348e740f1ba2a0fbb9c",
+              "source_bytes": 5741907,
+              "url": "https://info.sonicretro.org/images/b/b6/S3dss-box-us.jpg",
+              "page": "Sonic 3D: Flickies' Island",
+              "region": "USA",
+              "classification": "explicit_selected_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 505912,
-                  "lossy90": 97956
+                  "lossless": 21492460,
+                  "lossy90": 5131168
                 }
               },
-              "redump_id": "7008",
-              "dat_name": "Sonic 3D Blast (USA)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:S3dss-box-us.jpg",
+              "uploader": "Rlan2",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan2",
+              "uploaded_at": "2015-10-06T10:18:06Z",
+              "source_sha1": "30d28c3a8e9c793027353cc32217addb96697698",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:S3dss-box-us.jpg"
             }
-          ]
+          ],
+          "path": "81062/cover_front.webp"
         },
         "logo": {
           "sha256": "045f7e6b916be4a0be0563701b96718f63aa041a70ad914359d696b52170decd",
@@ -42565,6 +42726,145 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "343a8f594476570179f8eb75113585cb5020b5ff6e4161b0c69138ef3e214a6b",
+          "bytes": 1147608,
+          "width": 2033,
+          "height": 2333,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 4909284,
+              "lossy90": 1147608
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonic_3D_Blast_us_back.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "e3896bfbcc8da858ef50d5f162842e5ad632bb6304c27a023fdffed147849b61",
+              "source_bytes": 894193,
+              "url": "https://info.sonicretro.org/images/1/10/Sonic_3D_Blast_us_back.jpg",
+              "page": "Sonic 3D: Flickies' Island",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 4909284,
+                  "lossy90": 1147608
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonic_3D_Blast_us_back.jpg",
+              "uploader": "Hivebrain",
+              "uploader_url": "https://info.sonicretro.org/User:Hivebrain",
+              "uploaded_at": "2009-10-15T21:19:51Z",
+              "source_sha1": "111e2b03fd990f9bb2cc2dba61187bdde451b96d",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_3D_Blast_us_back.jpg"
+            }
+          ],
+          "path": "81062/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "a150a5c5ee58b9a80e10f9a56dd99ff2a2754946db15d7075161369ef5bbc22f",
+          "bytes": 97956,
+          "width": 512,
+          "height": 857,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 505912,
+              "lossy90": 97956
+            }
+          },
+          "kind": "cover_front",
+          "path": "81062/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic 3D Blast (USA).png",
+              "source_sha256": "894da7738ec425c4c18fbfa345300e7acf79319ec4ab090ca28559375ff59275",
+              "source_bytes": 681603,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 505912,
+                  "lossy90": 97956
+                }
+              },
+              "redump_id": "7008",
+              "dat_name": "Sonic 3D Blast (USA)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "2f08c12919543308bf923faef3228a2c9d535960a0ed1caf4b243b778b6b7988",
+          "bytes": 74470,
+          "width": 640,
+          "height": 642,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 364758,
+              "lossy90": 74470
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/S3d_sat_us_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "1b0bffbde86a1f62e8d63d9adb625b85d391dc83cc89bc4958b09a1017ef5a14",
+              "source_bytes": 111099,
+              "url": "https://info.sonicretro.org/images/4/41/S3d_sat_us_cd.jpg",
+              "page": "Sonic 3D: Flickies' Island",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 364758,
+                  "lossy90": 74470
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:S3d_sat_us_cd.jpg",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2009-09-16T14:08:26Z",
+              "source_sha1": "e653cdc667b2db7b5e91abafb6404004218a3c05",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:S3d_sat_us_cd.jpg"
+            }
+          ],
+          "path": "81062/disc.webp"
         }
       },
       "serial_identifiers": [
@@ -53544,10 +53844,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "b62dae0919a079b187bf85934b77b28fdac17a9c5a62499c81e2c76551eb3b83",
-          "bytes": 97106,
-          "width": 512,
-          "height": 863,
+          "kind": "cover_front",
+          "sha256": "426e45e1b1c325f57f672aa0c94e64e0259713cce0bcfeaa5ed111c0abc97de3",
+          "bytes": 4209296,
+          "width": 2850,
+          "height": 4747,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -53555,32 +53856,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 504180,
-              "lossy90": 97106
+              "lossless": 19837468,
+              "lossy90": 4209296
             }
           },
-          "kind": "cover_front",
-          "path": "81079/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic Jam (USA).png",
-              "source_sha256": "83a46e3892a2057bed7721fe59031c55844a12bec5544256d16c5a9d89455b30",
-              "source_bytes": 656871,
+              "source": "Sonic Retro/Sonic_Jam_Saturn_US_Cover_Front.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "cfdc421aa2b566948b9d4ef740043021a528d027183d1f924862b551b67749c6",
+              "source_bytes": 12951924,
+              "url": "https://info.sonicretro.org/images/0/03/Sonic_Jam_Saturn_US_Cover_Front.jpg",
+              "page": "Sonic Jam",
+              "region": "USA",
+              "classification": "explicit_selected_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 504180,
-                  "lossy90": 97106
+                  "lossless": 19837468,
+                  "lossy90": 4209296
                 }
               },
-              "redump_id": "20330",
-              "dat_name": "Sonic Jam (USA)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Front.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:02:25Z",
+              "source_sha1": "28e1bcde646be7e26072047c441e7de501d0c1d5",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Front.jpg"
             }
-          ]
+          ],
+          "path": "81079/cover_front.webp"
         },
         "logo": {
           "sha256": "99c1c5186b3fe3cdf1a93f061d0edebfa5cf6691d7dfc2877e624f17a771b178",
@@ -53710,6 +54021,145 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "7e136149d7fda8e0c39beb3ce2c070ba02e99d5bf44974ab164ecc6182bda4fc",
+          "bytes": 7450242,
+          "width": 4148,
+          "height": 4710,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 31398202,
+              "lossy90": 7450242
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonic_Jam_Saturn_US_Cover_Back.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "8455ffb6ef690cf207567d56f24f545a368299db9d08ad9ca994522555460b93",
+              "source_bytes": 11296944,
+              "url": "https://info.sonicretro.org/images/7/75/Sonic_Jam_Saturn_US_Cover_Back.jpg",
+              "page": "Sonic Jam",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 31398202,
+                  "lossy90": 7450242
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Back.jpg",
+              "uploader": "Rlan2",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan2",
+              "uploaded_at": "2022-02-01T21:15:06Z",
+              "source_sha1": "af3e92556071a6a259bf5fc91b92dfe4f5056855",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Back.jpg"
+            }
+          ],
+          "path": "81079/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "b62dae0919a079b187bf85934b77b28fdac17a9c5a62499c81e2c76551eb3b83",
+          "bytes": 97106,
+          "width": 512,
+          "height": 863,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 504180,
+              "lossy90": 97106
+            }
+          },
+          "kind": "cover_front",
+          "path": "81079/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic Jam (USA).png",
+              "source_sha256": "83a46e3892a2057bed7721fe59031c55844a12bec5544256d16c5a9d89455b30",
+              "source_bytes": 656871,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 504180,
+                  "lossy90": 97106
+                }
+              },
+              "redump_id": "20330",
+              "dat_name": "Sonic Jam (USA)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "672018a2925bde1732af3d39a50031ec475436409593fe6fd18be0a38e1a7969",
+          "bytes": 1304192,
+          "width": 2888,
+          "height": 2888,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 7347366,
+              "lossy90": 1304192
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sjam_us_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "e7d1aa02a2f2a8a0c6cac5cdc69ba044869543433138aae044bacfb38ff952cc",
+              "source_bytes": 4913059,
+              "url": "https://info.sonicretro.org/images/b/b8/Sjam_us_cd.jpg",
+              "page": "Sonic Jam",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 7347366,
+                  "lossy90": 1304192
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sjam_us_cd.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:36:52Z",
+              "source_sha1": "781abbd4d2f36566acd49835d627860ddcf90657",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sjam_us_cd.jpg"
+            }
+          ],
+          "path": "81079/disc.webp"
         }
       },
       "serial_identifiers": [
@@ -90145,10 +90595,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "c2240e08d4913839a90cb0d0801a763f296b7ed707be440b6a32930f760f12d6",
-          "bytes": 101722,
-          "width": 512,
-          "height": 859,
+          "kind": "cover_front",
+          "sha256": "4b181673605088435ee1d2b16649db2a37422688756272c29904fc9ec70f6cd9",
+          "bytes": 4446874,
+          "width": 2809,
+          "height": 4715,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -90156,32 +90607,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 504496,
-              "lossy90": 101722
+              "lossless": 20838214,
+              "lossy90": 4446874
             }
           },
-          "kind": "cover_front",
-          "path": "81800/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic R (USA, Brazil).png",
-              "source_sha256": "cc29f2bdabcedbe1459b56484bde0448ec2cced6e599448470264f75d9e10048",
-              "source_bytes": 680112,
+              "source": "Sonic Retro/Sonic_R_Saturn_US_Cover_Front.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "4421813e37e79c3e10e9285983955d621518ceb640c40c46db7a42ce0ef7c34e",
+              "source_bytes": 13545157,
+              "url": "https://info.sonicretro.org/images/d/de/Sonic_R_Saturn_US_Cover_Front.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 504496,
-                  "lossy90": 101722
+                  "lossless": 20838214,
+                  "lossy90": 4446874
                 }
               },
-              "redump_id": "17999",
-              "dat_name": "Sonic R (USA, Brazil)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Front.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:37:01Z",
+              "source_sha1": "79c163062b8ae28c8b0aacad2bf5c82e3eca009a",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Front.jpg"
             }
-          ]
+          ],
+          "path": "81800/cover_front.webp"
         },
         "logo": {
           "sha256": "1e0f077b74978bdf72d04f1c4f8afe13ceb6ebf62bd255e4b8ee198a7ba9a8c9",
@@ -90311,6 +90772,145 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "f629cbf045b3e3f621e6977779a324b0d4a709e7552c33f347d2fd658da45fc3",
+          "bytes": 4902934,
+          "width": 3727,
+          "height": 4721,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 23473018,
+              "lossy90": 4902934
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonic_R_Saturn_US_Cover_Back.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "9c7409befcd5e5c4d764cf6f5a8daca3fe00ae09db225ffcaffd3b87ff64547a",
+              "source_bytes": 15284533,
+              "url": "https://info.sonicretro.org/images/9/9a/Sonic_R_Saturn_US_Cover_Back.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 23473018,
+                  "lossy90": 4902934
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Back.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:37:02Z",
+              "source_sha1": "2078d7ec7676200118741b688bb8253bd0afdc38",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Back.jpg"
+            }
+          ],
+          "path": "81800/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "c2240e08d4913839a90cb0d0801a763f296b7ed707be440b6a32930f760f12d6",
+          "bytes": 101722,
+          "width": 512,
+          "height": 859,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 504496,
+              "lossy90": 101722
+            }
+          },
+          "kind": "cover_front",
+          "path": "81800/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic R (USA, Brazil).png",
+              "source_sha256": "cc29f2bdabcedbe1459b56484bde0448ec2cced6e599448470264f75d9e10048",
+              "source_bytes": 680112,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 504496,
+                  "lossy90": 101722
+                }
+              },
+              "redump_id": "17999",
+              "dat_name": "Sonic R (USA, Brazil)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "a9c2d5f550759e13377850f8178195c53ebc5a1291d963084e4f8d05d0d0605c",
+          "bytes": 1504740,
+          "width": 2945,
+          "height": 2892,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 8312702,
+              "lossy90": 1504740
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sonicr_sat_us_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "6534130c4949ead83c4631054549a52278a17a9bc4254a6d73fcbb8f9fd424dc",
+              "source_bytes": 5563061,
+              "url": "https://info.sonicretro.org/images/6/61/Sonicr_sat_us_cd.jpg",
+              "page": "Sonic R",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 8312702,
+                  "lossy90": 1504740
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sonicr_sat_us_cd.jpg",
+              "uploader": "Rlan",
+              "uploader_url": "https://info.sonicretro.org/User:Rlan",
+              "uploaded_at": "2014-12-15T08:57:22Z",
+              "source_sha1": "67ba16afc9730f6e336007adae94f1b70cee9ad2",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-saturn-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sonicr_sat_us_cd.jpg"
+            }
+          ],
+          "path": "81800/disc.webp"
         }
       },
       "serial_identifiers": [
@@ -666569,6 +667169,23 @@
         "Category:Good_Saturn_US_box_scans",
         "Category:Saturn_US_disc_scans",
         "Category:Good_Saturn_US_manual_scans"
+      ]
+    },
+    "sonicretro": {
+      "name": "Sonic Retro",
+      "url": "https://info.sonicretro.org",
+      "scope": "Explicitly selected US Saturn covers and discs; official Redump identifiers; primary artwork selected by pixel count.",
+      "selection": "explicit_file_pages",
+      "file_pages": [
+        "https://info.sonicretro.org/File:S3dss-box-us.jpg",
+        "https://info.sonicretro.org/File:Sonic_3D_Blast_us_back.jpg",
+        "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Front.jpg",
+        "https://info.sonicretro.org/File:Sonic_Jam_Saturn_US_Cover_Back.jpg",
+        "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Front.jpg",
+        "https://info.sonicretro.org/File:Sonic_R_Saturn_US_Cover_Back.jpg",
+        "https://info.sonicretro.org/File:S3d_sat_us_cd.jpg",
+        "https://info.sonicretro.org/File:Sjam_us_cd.jpg",
+        "https://info.sonicretro.org/File:Sonicr_sat_us_cd.jpg"
       ]
     }
   },
