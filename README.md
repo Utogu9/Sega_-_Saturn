@@ -9,3 +9,5 @@ Artwork and metadata for [OpenCabinet-BDD](https://github.com/Utogu9/OpenCabinet
 - Additional Sonic covers and disc scans: [Sonic Retro](https://info.sonicretro.org/) and the uploaders credited in each image's `sources` records.
 
 Sources and available contributor credits are retained in `catalog.json` and, where present, `console_artwork.json`. Artwork belongs to its respective rights holders; this repository does not assign it a new license.
+
+- Selected game descriptions and infobox metadata: [Wikipedia contributors](WIKIPEDIA-CREDITS.md), under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
